@@ -1,0 +1,95 @@
+.Popup {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width:90%;
+    max-width: 50rem;
+    border-radius: 10px;
+
+    transition: 2s;
+}
+
+.popupHead {
+    display: flex;
+    justify-content: space-between;
+    font-size:1.2rem;
+    font-weight: 550;
+
+    margin: 1.2rem 1.2rem 2rem 1.2rem;
+}
+
+.Popup svg {
+    cursor: pointer;
+}
+
+.Content {
+    display: flex;
+    align-items: center;
+    gap:3rem;
+    flex-direction: column;
+    margin: 2rem auto 4.5rem auto;
+    width:95%
+}
+
+.Content li {
+    background-color: rgba(242, 246, 247, 0.801);
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    box-shadow: 2px 2px 0 #44546A;
+    margin:0.8rem;
+    
+}
+
+.Content ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.vid video {
+    
+    border-radius: 12px;
+    width:100%;
+    max-width: 400px;
+    height:auto;
+    box-shadow: 2px 2px 0 #44546A;
+}
+
+.Content h2 {
+    font-size: 1.2rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+
+.main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    top: 0px;
+    left: 0px;
+
+    
+}
+
+@media only screen and (max-width:px){
+
+    .Content li {
+        background-color: rgba(242, 246, 247, 0.801);
+        margin:0.5rem;
+        
+    }
+
+    .Content h2 {
+        font-size: 1rem;
+        
+    }
+}

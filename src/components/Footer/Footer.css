@@ -1,0 +1,52 @@
+.Footer {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    background-color: rgba(242, 246, 247, 0.801);
+    bottom: 0;
+}
+
+.footerConts {
+
+    
+    display: flex;
+    margin:0 auto;
+    width:85%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Icons li {
+    display: inline-block;
+    padding: 0.55rem;
+    margin:0 0.65rem;
+
+}
+
+.Icons li:hover {
+    background-color: rgba(192, 192, 192, 0.301);
+    border-radius: 8px;;
+}
+
+.Icons {
+    padding-top:0.4rem;
+}
+
+.Rights {
+    padding-top: 0.6rem;
+}
+
+@media only screen and (min-width:608px){
+    .footerConts {    
+        justify-content: space-between!important;
+    }
+
+    .Icons {
+        padding-top:0;
+    }
+    
+    
+}

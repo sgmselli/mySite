@@ -1,0 +1,84 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    width:85%;
+    margin:1.8rem auto;
+}
+
+
+.menu li{
+    display: inline-block;
+    margin: 0 1rem;
+    
+}
+
+.menu li button {
+    background-color: rgba(242, 246, 247, 0.801);
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 #44546A;
+    transition: 0.3s;
+}
+
+.menu li button:hover {
+    transition:0.3s;
+    background-color: rgb(226, 226, 226);
+}
+
+.Title {
+    padding: 10px;
+    
+}
+
+.Title h4 {
+    font-size: 1.1rem;
+    color: black;
+    font-style: normal;
+    font-weight: 700;
+    padding:2px 5px;
+}
+
+.link {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.dropdown {
+    display: flex;
+}
+
+.dropdown svg {
+    cursor: pointer;
+}
+
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    top: 0.5rem;
+    right: 2.5rem;
+
+    background-color: rgba(242, 246, 247);
+    box-shadow: 2px 2px 0 #44546A;
+    border-radius: 12px;
+    width: 9rem;
+    height: auto;
+    text-align: center;
+}
+
+.dropdownMenu li {
+    margin: 1rem 0;
+}
+
+.dropdownMenu li h2 {
+    color: black;
+    font-weight: 500;
+}
+
+.dropdownMenu hr {
+    color: grey;
+    border-top:0.1rem solid grey;
+}
