@@ -1,7 +1,7 @@
 .Popup {
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    background-color: white;
     width:90%;
     max-width: 50rem;
     border-radius: 10px;
